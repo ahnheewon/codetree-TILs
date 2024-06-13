@@ -6,9 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int cnt = 0;
         for(int i=0; i<10; i++){
-             String number = sc.next();
+             int number = sc.nextInt();
             if(i == 2 || i == 4 || i == 9){
-                cnt += Integer.parseInt(number);
+                cnt += number;
             }
         }
 
